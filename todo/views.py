@@ -43,7 +43,7 @@ def task_create(request):
                 <option value="high">Yuqori</option>
             </select><br><br>
 
-            <button type="submit">Save Task</button>
+            <button type="submit">Hammasini_Saqlash</button>
         </form>
 
     </body>
