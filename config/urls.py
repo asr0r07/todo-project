@@ -19,5 +19,5 @@ from django.urls import path
 from todo.views import task_create
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('task/create/',task_create,name='task_create'),
+    path('',task_create),
 ]
