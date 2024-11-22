@@ -27,7 +27,6 @@ def task_create(request):
         <h2>Yangi Vazifa Yaratish</h2>
 
         <form action="" method="post">
-            {% csrf_token %}
             <label for="taskName">Vazifa nomi:</label><br>
             <input type="text" id="taskName" name="taskName" required><br><br>
 
